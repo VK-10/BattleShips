@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "@babel/preset-env": "^7.28.0",
+    "jest": "^30.0.5"
+  },
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  }
+}
