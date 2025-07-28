@@ -65,7 +65,7 @@ place() {
 }
 
 
-reciveAttack (x,y) {
+recieveAttack (x,y) {
     const cell = this.gameBoard[x][y];
         if (cell.isAttacked()) return "already attacked";
         cell.markAttacked();
